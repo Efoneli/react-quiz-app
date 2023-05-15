@@ -20,7 +20,7 @@ type ButtonWrapperProps = {
     userClicked: boolean;
 }
 
-export const ButtonWrapperProps = styled.div<ButtonWrapperProps>`
+export const ButtonWrapper = styled.div<ButtonWrapperProps>`
 transition: all 0.3s ease;
 
 :hover {
