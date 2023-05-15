@@ -1,4 +1,8 @@
 
+export type Question = {
+    category: string;
+    correct
+}
 
 export enum Difficulty {
     EASY = 'easy',
