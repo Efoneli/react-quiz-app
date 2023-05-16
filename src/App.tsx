@@ -45,7 +45,7 @@ const App = () => {
 
       // check answer against the correct answer
       const correct = questions[number].correct_answer === answer;
-      // add score if answer is correct
+      // add score if answer is correct 
       if (correct) setScore(prev => prev + 1);
 
       //save answer in the array for the user answers
